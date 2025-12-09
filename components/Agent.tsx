@@ -16,7 +16,7 @@ enum CallStatus {
 }
 
 interface SavedMessage {
-  role: "user" | "system" | "assistant";
+  role: "user" | "system" | "assistant ";
   content: string;
 }
 
